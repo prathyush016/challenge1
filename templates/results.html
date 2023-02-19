@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+  
+<html>
+<head>
+    <title>iNeuron Courses and Details</title>
+</head>
+<body>
+  
+<ol>
+<!-- For loop logic of jinja template -->
+{%for i in range(0, len)%}
+  
+<p style="text-align: left;"><strong>{{d2[i][0]}}</strong></p>
+<p style="text-align: left;">{{d2[i][1]}}</p>
+<p style="text-align: left;">{{d2[i][2]}}:</p>
+<p style="text-align: left;">{{d2[i][3]}}</p>
+<p style="text-align: left;">{{d2[i][4]}}</p>
+<p style="text-align: left;">--------------------------------------------------------------------------------------------------------------------</p>
+{%endfor%}
+  
+</ol>
+  
+</body>
+</html>
